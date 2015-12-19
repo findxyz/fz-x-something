@@ -1,0 +1,20 @@
+﻿{
+    "manifest_version": 2,
+    "name": "xSomething",
+    "version": "1.0",
+    "description": "xSomething",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*"
+            ],
+            "js": [
+                "js/jquery-1.11.2.js",
+                "js/content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "48": "images/icon48.png"
+    }
+}

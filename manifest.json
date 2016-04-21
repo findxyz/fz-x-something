@@ -6,11 +6,11 @@
     "content_scripts": [
         {
             "matches": [
-                "http://*/*"
+                "*://*/*"
             ],
             "js": [
                 "js/jquery-1.11.2.js",
-                "js/content.js"
+                "js/weixin.js"
             ]
         }
     ],
